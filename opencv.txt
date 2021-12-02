@@ -1,0 +1,15 @@
+opencv is the python library which is use for image processing
+and also we need numpy
+
+here, in this project we gonna make use of these libraries to detect the face from the image
+but remember
+only opencv is not enough
+you also need something called Haar Cascade
+
+what is Haar Cascade ?
+this is a classifier which is use to detect perticular objects from the source
+AND...
+haarcascade_frontalface_default.xml is the haar cascade designed by opencv to detect the frontal face
+Basically,
+haarcascade_frontalface_default.xml this is a required trained classifier for face detection
+for detecting anything other need to use different classifier
